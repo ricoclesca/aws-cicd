@@ -4,8 +4,8 @@ pipeline {
     environment {
       BRANCH_NAME = 'main'  
       GIT_URL = 'https://github.com/ricoclesca/awscicd.git'
-      IMAGE_TAG = 'new code'
-      IMAGE_VERSION = ${BUILD_NUMBER}
+      IMAGE_TAG = 'newcode'
+      IMAGE_VERSION = "${BUILD_NUMBER}"
     }
 
     stages {
